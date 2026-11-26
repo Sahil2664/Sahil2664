@@ -62,7 +62,7 @@ Each project below approaches a different layer of software engineering—from m
 - **What I implemented:** A unified FastAPI + React/Recharts workbench backed by SQLite, paired with real Terraform HCL2 modules, 7 Ansible playbooks + a `webserver` role, Puppet `site.pp` manifests + ERB templates, Nagios configs with a custom Python HTTP probe (`check_http_health.py`), and a 4-service Docker Compose + Nginx topology.
 - **Technology choices:** Python 3.11 + FastAPI + Uvicorn + SQLite on the backend; React 18 + Vite + Tailwind + Recharts on the frontend; HCL2, YAML, Puppet DSL, and Docker Compose for the infrastructure layer.
 - **Why the implementation is interesting:** Built around a strict **Dual-Mode Architecture**—in Real Mode, an allowlisted subprocess runner (`no shell=True`) checks whether host binaries exist and executes only approved commands; in Demo Mode, a faithful offline simulator lets the entire lifecycle (including typed `DESTROY` confirmation guards and Ansible rollbacks) be tested safely without cloud credentials.
-- **Repository:** [github.com/Sahil2664/DevOpsHub](https://github.com/Sahil2664/DevOpsHub) *(local project prepared for push from `devopshub`)*
+- **Repository:** [github.com/Sahil2664/DevOpsHub](https://github.com/Sahil2664/DevOpsHub)
 
 <br/>
 
