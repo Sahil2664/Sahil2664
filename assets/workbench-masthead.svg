@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 232" width="100%" role="img" aria-label="Sahil Kumar Singh — The Engineering Workbench">
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#1B2432" stroke-width="0.8"/>
+    </pattern>
+    <linearGradient id="accentRule" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="55%" stop-color="#2DD4BF"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Drafting Sheet Frame -->
+  <rect x="1" y="1" width="878" height="230" rx="12" fill="#0D1219" stroke="#253041" stroke-width="1.5"/>
+  <rect x="10" y="10" width="860" height="212" rx="8" fill="url(#grid)" opacity="0.75"/>
+
+  <!-- Corner Registration Marks -->
+  <path d="M 18 28 L 18 18 L 28 18" fill="none" stroke="#475569" stroke-width="1.2"/>
+  <path d="M 852 18 L 862 18 L 862 28" fill="none" stroke="#475569" stroke-width="1.2"/>
+  <path d="M 18 204 L 18 214 L 28 214" fill="none" stroke="#475569" stroke-width="1.2"/>
+  <path d="M 852 214 L 862 214 L 862 204" fill="none" stroke="#475569" stroke-width="1.2"/>
+
+  <!-- Top Index Bar -->
+  <text x="34" y="42" fill="#38BDF8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="600" letter-spacing="1.4">WORKBENCH // SAHIL2664</text>
+  <rect x="626" y="25" width="220" height="24" rx="12" fill="#141C27" stroke="#293649" stroke-width="1"/>
+  <text x="736" y="41" text-anchor="middle" fill="#CBD5E1" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="0.6">B.TECH CSE · LPU · 2027</text>
+
+  <!-- Main Editorial Title -->
+  <text x="34" y="92" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="33" font-weight="700" letter-spacing="-0.4">Sahil Kumar Singh</text>
+  <rect x="34" y="104" width="168" height="2.5" rx="1.25" fill="url(#accentRule)"/>
+
+  <text x="34" y="130" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5">
+    Backend APIs, full-stack web systems, applied ML services, and infrastructure automation.
+  </text>
+
+  <!-- Workbench Spec Strip -->
+  <rect x="34" y="152" width="812" height="52" rx="8" fill="#121923" stroke="#232E3F" stroke-width="1"/>
+  <line x1="234" y1="162" x2="234" y2="194" stroke="#232E3F" stroke-width="1"/>
+  <line x1="446" y1="162" x2="446" y2="194" stroke="#232E3F" stroke-width="1"/>
+  <line x1="664" y1="162" x2="664" y2="194" stroke="#232E3F" stroke-width="1"/>
+
+  <text x="50" y="172" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="1">PRIMARY FOCUS</text>
+  <text x="50" y="191" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600">Backend &amp; Full-Stack</text>
+
+  <text x="250" y="172" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="1">CORE LANGUAGES</text>
+  <text x="250" y="191" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600">Java · JS · Python · SQL</text>
+
+  <text x="462" y="172" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="1">INFRA &amp; TOOLING</text>
+  <text x="462" y="191" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600">Docker · Actions · IaC</text>
+
+  <text x="680" y="172" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="1">EXPLORING NOW</text>
+  <text x="680" y="191" fill="#2DD4BF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600">Spring · Data · ML</text>
+</svg>

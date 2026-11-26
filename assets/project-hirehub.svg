@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 218" width="100%" role="img" aria-label="HireHub 3-tier MERN and FastAPI ML architecture diagram">
+  <defs>
+    <marker id="arrowTeal" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#2DD4BF"/>
+    </marker>
+    <marker id="arrowIndigo" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#818CF8"/>
+    </marker>
+  </defs>
+
+  <rect x="1" y="1" width="878" height="216" rx="12" fill="#0D1219" stroke="#243142" stroke-width="1.5"/>
+
+  <!-- Header Strip -->
+  <rect x="1" y="1" width="878" height="38" rx="12" fill="#121923"/>
+  <rect x="1" y="25" width="878" height="14" fill="#121923"/>
+  <line x1="1" y1="39" x2="879" y2="39" stroke="#243142" stroke-width="1"/>
+  <circle cx="22" cy="20" r="4.5" fill="#2DD4BF"/>
+  <text x="36" y="24" fill="#2DD4BF" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="600" letter-spacing="0.8">01 // FULL-STACK + SEMANTIC MATCHING</text>
+  <text x="856" y="24" text-anchor="end" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">HireHub · MERN + FastAPI ML</text>
+
+  <!-- Tier 1: React Client -->
+  <rect x="24" y="60" width="220" height="136" rx="8" fill="#131B26" stroke="#2B3A4E" stroke-width="1.2"/>
+  <text x="40" y="83" fill="#2DD4BF" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" font-weight="600">CLIENT // REACT + VITE</text>
+  <text x="40" y="103" fill="#F1F5F9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="700">Role-Aware UI</text>
+  <text x="40" y="125" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5">• AuthContext + ProtectedRoute</text>
+  <text x="40" y="144" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5">• Seeker: Jobs, Match, Resume</text>
+  <text x="40" y="163" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5">• Recruiter: Post &amp; Review</text>
+  <text x="40" y="182" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10">Tailwind CSS · Axios</text>
+
+  <!-- Connector 1 -> 2 -->
+  <line x1="244" y1="128" x2="290" y2="128" stroke="#2DD4BF" stroke-width="1.6" marker-end="url(#arrowTeal)"/>
+  <text x="267" y="118" text-anchor="middle" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5">JWT</text>
+
+  <!-- Tier 2: Express + MongoDB -->
+  <rect x="294" y="60" width="266" height="136" rx="8" fill="#131B26" stroke="#2B3A4E" stroke-width="1.2"/>
+  <text x="310" y="83" fill="#38BDF8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" font-weight="600">API // NODE + EXPRESS + MONGO</text>
+  <text x="310" y="103" fill="#F1F5F9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="700">Core Gateway &amp; Persistence</text>
+  <text x="310" y="125" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5">• bcryptjs + JWT role guard</text>
+  <text x="310" y="144" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5">• Mongoose: User, Job, Application</text>
+  <text x="310" y="163" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5">• Multer PDF stream proxy</text>
+  <text x="310" y="182" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5">/auth · /jobs · /applications · /ml</text>
+
+  <!-- Connector 2 -> 3 -->
+  <line x1="560" y1="128" x2="606" y2="128" stroke="#818CF8" stroke-width="1.6" marker-end="url(#arrowIndigo)"/>
+  <text x="583" y="118" text-anchor="middle" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5">REST</text>
+
+  <!-- Tier 3: FastAPI ML Service -->
+  <rect x="610" y="60" width="246" height="136" rx="8" fill="#151B2B" stroke="#4338CA" stroke-width="1.2"/>
+  <text x="626" y="83" fill="#A5B4FC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" font-weight="600">ML SERVICE // FASTAPI</text>
+  <text x="626" y="103" fill="#F1F5F9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="700">Resume &amp; Match Engine</text>
+  <text x="626" y="125" fill="#CBD5E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5">• PyPDF2 + spaCy NER parser</text>
+  <text x="626" y="144" fill="#CBD5E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5">• all-MiniLM-L6-v2 embeddings</text>
+  <text x="626" y="163" fill="#CBD5E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5">• Cosine ranking &amp; skill-gap</text>
+  <text x="626" y="182" fill="#818CF8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5">/parse-resume · /rank-jobs · /skill-gap</text>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 218" width="100%" role="img" aria-label="Splitwise Clone Net Settlement Graph and CSV Anomaly Pipeline diagram">
+  <defs>
+    <marker id="arrowAmber" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#F59E0B"/>
+    </marker>
+  </defs>
+
+  <rect x="1" y="1" width="878" height="216" rx="12" fill="#0D1219" stroke="#243142" stroke-width="1.5"/>
+
+  <!-- Header Strip -->
+  <rect x="1" y="1" width="878" height="38" rx="12" fill="#121923"/>
+  <rect x="1" y="25" width="878" height="14" fill="#121923"/>
+  <line x1="1" y1="39" x2="879" y2="39" stroke="#243142" stroke-width="1"/>
+  <circle cx="22" cy="20" r="4.5" fill="#F59E0B"/>
+  <text x="36" y="24" fill="#F59E0B" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="600" letter-spacing="0.8">02 // ALGORITHMS + DATA INTEGRITY</text>
+  <text x="856" y="24" text-anchor="end" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">splitwise-clone · Node · SQL · React</text>
+
+  <!-- Left Panel: Net Settlement Graph -->
+  <rect x="24" y="58" width="406" height="140" rx="8" fill="#131B26" stroke="#2B3A4E" stroke-width="1.2"/>
+  <text x="40" y="80" fill="#F59E0B" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" font-weight="600">BALANCE ENGINE // GREEDY NET SETTLEMENT</text>
+
+  <!-- Mini Graph Visualization -->
+  <rect x="40" y="94" width="142" height="68" rx="6" fill="#0E141D" stroke="#263344" stroke-width="1"/>
+  <text x="111" y="114" text-anchor="middle" fill="#CBD5E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600">Expenses + Splits</text>
+  <text x="111" y="132" text-anchor="middle" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5">Equal · Exact · % · Share</text>
+  <text x="111" y="148" text-anchor="middle" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5">Join/Leave Date-Scoped</text>
+
+  <line x1="184" y1="128" x2="226" y2="128" stroke="#F59E0B" stroke-width="1.6" marker-end="url(#arrowAmber)"/>
+
+  <rect x="230" y="94" width="184" height="68" rx="6" fill="#0E141D" stroke="#F59E0B" stroke-opacity="0.45" stroke-width="1"/>
+  <circle cx="256" cy="116" r="10" fill="#1E293B" stroke="#FB7185" stroke-width="1.2"/>
+  <text x="256" y="120" text-anchor="middle" fill="#FDA4AF" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5">D</text>
+  <line x1="268" y1="116" x2="314" y2="116" stroke="#F59E0B" stroke-width="1.3" marker-end="url(#arrowAmber)"/>
+  <circle cx="328" cy="116" r="10" fill="#1E293B" stroke="#34D399" stroke-width="1.2"/>
+  <text x="328" y="120" text-anchor="middle" fill="#6EE7B7" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5">C</text>
+  <text x="374" y="120" text-anchor="middle" fill="#FDE68A" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5">min(D,C)</text>
+  <text x="322" y="147" text-anchor="middle" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11">Minimal-edge transactions</text>
+
+  <text x="40" y="184" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10">Tested: balanceAlgo.test.js · Exact penny remainder fix</text>
+
+  <!-- Right Panel: CSV Anomaly Detection -->
+  <rect x="450" y="58" width="406" height="140" rx="8" fill="#131B26" stroke="#2B3A4E" stroke-width="1.2"/>
+  <text x="466" y="80" fill="#FB7185" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" font-weight="600">IMPORT ENGINE // TRANSACTIONAL CSV AUDIT</text>
+  <text x="466" y="102" fill="#F1F5F9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="700">Stream Parser &amp; Anomaly Guards</text>
+
+  <rect x="466" y="114" width="114" height="24" rx="5" fill="#1B2230" stroke="#334155" stroke-width="1"/>
+  <text x="523" y="130" text-anchor="middle" fill="#E2E8F0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10">Unknown Users</text>
+
+  <rect x="590" y="114" width="122" height="24" rx="5" fill="#1B2230" stroke="#334155" stroke-width="1"/>
+  <text x="651" y="130" text-anchor="middle" fill="#E2E8F0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10">Date Variance</text>
+
+  <rect x="722" y="114" width="118" height="24" rx="5" fill="#1B2230" stroke="#334155" stroke-width="1"/>
+  <text x="781" y="130" text-anchor="middle" fill="#E2E8F0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10">Dupes / Precision</text>
+
+  <text x="466" y="160" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12">Wraps multi-row imports in SQL transactions with</text>
+  <text x="466" y="177" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12">import_sessions tracking + documented DECISIONS.md</text>
+</svg>
